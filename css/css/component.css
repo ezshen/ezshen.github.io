@@ -37,6 +37,11 @@
 	margin: -20px 0 0 -15px;
 }
 
+.og-grid li > a img:hover {
+	border-color: #979797;
+	border-width: 2px;
+}
+
 .og-expander {
 	position: absolute;
 	background: #eeeeee;

@@ -14,7 +14,6 @@
   <link href="css/css/component.css" rel="stylesheet" type="text/css">
   <link href="css/css/theme.css" rel="stylesheet" type="text/css">
   <link href="css/css/main.css" rel="stylesheet" type="text/css">
-  <script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 
@@ -32,6 +31,7 @@
             <li><a href="#about" class="scroll">About Me</a></li>
             <li><a href="#expertise" class="scroll">Experience</a></li>
             <li><a href="#projects" class="scroll">Projects</a></li>
+            <li><a href="#papers" class="scroll">Papers</a></li>
           </ul>
         </div>
       </div>
@@ -49,8 +49,8 @@
 
         <div class="col-sm-9">
           <h2 class="jumbo-title">Hi, I'm <b>Ethan Shen</b>!</h2>
-          <p class="subtitle">Machine learning researcher. Developer. Stem cell biologist. <br>Stanford University Class of 2020 (Computer Science, Biology) </br>
-          <p class="description"> <i> </i> </p>
+          <p class="subtitle">Machine learning researcher. Developer. Stem cell biologist. <br>Stanford University Class of 2020 (Computer Science) </br>
+          <p class="description"> <i>ezshen@stanford.edu</i> </p>
           <a class="resume" href="files/resume.pdf">Here's my resume.</a>
         </div>
       </div>
@@ -69,46 +69,55 @@
 
         <div class="col-md-12">
           <ul id="og-grid" class="og-grid">
-            <li>
-              <a href="https://www.occamzrazor.com/" data-largesrc="images/occamzrazor.jpg" data-title="OccamzRazor" data-description="
-              Palo Alto, October 2017 - Present <br> </br>
+              <li>
+                <a href="https://www.occamzrazor.com/" data-largesrc="images/occamzrazor.jpg" data-title="OccamzRazor" data-description="
+                Machine Learning Engineer <br>
+                Palo Alto, October 2017 - Present <br> </br>
 
-              I'm currently working with team on an AI-driven neuroscience product that uses reinforcement learning to extract information from publications and various other data sources for universal analysis via bioinformatics frameworks. My responsibilities include researching methods for guiding ML agents using information derived from knowledge graphs.">
-                <img src="images/occamzrazor_logo.png" alt="img01"/>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.startyoshi.com/" data-largesrc="images/yoshi_sshot.png" data-title="Yoshi Inc." data-description="
-              San Francisco, May 2017 - October 2017 <br> </br>
+                - currently working with team on an AI-driven neuroscience product<br>
+                - using reinforcement learning to extract information from publications and databases for universal analysis via bioinformatics frameworks<br>
+                - responsibilities include researching methods for guiding ML agents using information derived from knowledge graphs">
+                  <img src="images/occamzrazor_logo.png" alt="img01"/>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.startyoshi.com/" data-largesrc="images/yoshi_sshot.png" data-title="Yoshi Inc." data-description="
+                Backend Developer<br>
+                San Francisco, May 2017 - October 2017 <br> </br>
 
-              I was backend developer at a YCombinator-backed startup. <br></br>
+                YCombinator-backed startup. <br></br>
 
-              My responsibilities included upgrading Yoshi’s custom CRM web application with a wide range of new features to optimize operator workflow. I built a comprehensive integration testing suite that increased code coverage by 90%. I also restructured Yoshi’s internal RESTful API and database design.">
-                <img src="images/yoshi.jpg" alt="img02"/>
-              </a>
-            </li>
-            <li>
-              <a href="http://www.longakerlab.com/" data-largesrc="images/sms_stem_cells.jpg" data-title="Stanford School of Medicine" data-description="
-              Palo Alto, July 2014 - October 2017 <br> </br>
+                - built comprehensive integration testing suite that increased code coverage by 90%<br>
+                - upgraded Yoshi’s custom CRM web application with new features to optimize operator workflow<br>
+                - restructured Yoshi’s internal RESTful API and database design">
+                  <img src="images/yoshi.jpg" alt="img02"/>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.longakerlab.com/" data-largesrc="images/sms_stem_cells.jpg" data-title="Stanford School of Medicine" data-description="
+                Stem Cell Researcher<br>
+                Longaker Lab, Helms Lab<br>
+                Palo Alto, July 2014 - October 2017 <br> </br>
 
-              Developed data analysis workflow of 3D fluorescent confocal images via isosurface and filament tracing.
-              Projects include: developing a therapeutic for rejuvenating elderly bone regeneration using a stem cell activator, generating a protein-delivery system for targeted genetic recombination in vivo, creating a novel craniofacial surgery model to investigate stem cell mechanisms.">
-                <img src="images/sms_logo.jpeg" alt="img02"/>
-              </a>
-            </li>
+                - leveraged technical background to optimize and improve data analysis methods<br>
+                - investigated stem cells and tissue regeneration<br>
+                - designed and executed projects that lead to publications (see below)">
+                  <img src="images/sms_logo.jpeg" alt="img02"/>
+                </a>
+              </li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 
-<!-- Expertise: Displays work experience -->
+<!-- Projects: Displays work experience -->
   <div class="container">
     <div class="section" id="projects">
-
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title">Some projects and papers I've worked on.</h2>
+          <h2 class="title">Some projects I've worked on recently...<br></br></h2>
+        </div>
       </div>
 
       <div class="project-container">
@@ -120,9 +129,14 @@
             <img src="images/ml+stemcells.png" alt="img02"/>
           </div>
           <div class="col-sm-7">
-              <p> We were able to train multiple supervised classifier models on a single-cell RNA-sequencing dataset to predict whether a blood stem cell is young or aged. Using in-house feature selection algorithms, we retroactively discovered small, critical subset of gene clusters that potentially drive aging, and can predict the age of a stem cell with 98.5% accuracy. We are currently exploring the biocomputational and therapeutic implications of our study. <br> </br>
+              <p>
+                <b>Using machine learning to predict stem cell aging.</b> <br> </br>
 
-              Our work is done in collaboration with the Stanford CS department and Stanford Medical School, and our paper is available upon request.
+                - Obtained blood stem cell gene expression dataset<br>
+                - Trained multiple supervised classifier models to identify young or old<br>
+                - Selected critical subset of genes that predicted age with 98.5% accuracy<br></br>
+
+                Currently exploring the therapeutic and rejuvenative implications of the study. Work is done under the Stanford CS department, and the paper is available upon request.
               </p>
           </div>
         </div>
@@ -131,46 +145,47 @@
       <div class="project-container">
         <div class="row">
           <div class="col-sm-2">
-            <h2>3D tissue modeling</h2>
+            <h2>3D image analysis</h2>
           </div>
           <div class="col-sm-3">
             <img src="images/3d fat image.jpeg" alt="img02"/>
           </div>
           <div class="col-sm-7">
-              <p>I created a workflow for analyzing 3D fluorescent images from laser-scanning confocal microscopy. This allowed the quanfication of cellular relationships within a tissue sample (such as cell-cell distance, density, # of branch points of blood vessels), and the algorithm was adopted by the rest of the lab.<br></br>
+              <p>
+                <b>Building a workflow for 3D fluorescent microscopy analysis.</b> <br> </br>
 
-              The project was sponsored by Longaker Lab and the Stanford Stem Cell Institute. Our manuscript is under review. <br></br>
+                While in the lab, I realized that there were few tools to quantify data present in microscopic images.<br></br>
+
+                - Created a workflow for analyzing 3D images from fluorescent microscopy<br>
+                - Given a surface rendering, relationships can be quantified (distance, density, and num branch points)<br></br>
+
+                The tool increased experimental precision and reproducibility, and was quickly adopted by the lab. The project was sponsored by Longaker Lab and Stanford Stem Cell Institute. Our manuscript is under review.
               </p>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="project-container">
-        <div class="row">
-          <div class="col-sm-2">
-            <h2>stem cell regeneration</h2>
-          </div>
-          <div class="col-sm-3">
-            <img src="images/stem cell regeneration.jpg" alt="img02"/>
-          </div>
-          <div class="col-sm-7">
-              <p>
-              Investigated the role of skeletal stem cells and therapeutic activation within multiple regenerative contexts. Research done in Longaker Lab and Helms Lab. Publications are below. <br> </br>
-
-              <a href=" ">Mechanoresponsive skeletal stem cells acquire developmental neural crest identity during distraction osteogenesis. <i>Nature</i> (under review, 2017)</a>
-
+<!-- Projects: Displays work experience -->
+  <div class="container">
+    <div class="section" id="papers">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="title">Papers<br></br></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <p>
+              <a href="">Mechanoresponsive skeletal stem cells acquire developmental neural crest identity during distraction osteogenesis. <i>Nature</i> (in review, 2017)</a>
               <br> </br>
-
-              <a href="https://www.nature.com/articles/srep36524">Axin2-expressing cells execute regeneration after skeletal injury. <i>Scientific Reports</i> (2016)</a>
-
+              <a href="">Comparative Three-Dimensional Analysis of Human and Mouse Adipose Tissue. <i>J. Mol. Endocrinol.</i> (in review, 2017)
               <br> </br>
-
               <a href="https://www.nature.com/articles/s41598-017-14395-9">WNT-activated bone grafts repair osteonecrotic lesions in aged animals. <i>Scientific Reports</i> (2017)</a>
-
-
-
-              </p>
-          </div>
+              <br> </br>
+              <a href="https://www.nature.com/articles/srep36524">Axin2-expressing cells execute regeneration after skeletal injury. <i>Scientific Reports</i> (2016)</a>
+            </p>
         </div>
       </div>
     </div>
@@ -182,12 +197,13 @@
     <div class="row">
       <div class="col-sm-12">
         <ul class="brands">
+          <li><a href="mailto:ezshen@stanford.edu"><i class="fa fa-envelope"></i></a></li>
           <li><a href="https://www.facebook.com/ethan.shen.14"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://www.linkedin.com/in/ethan-shen/"><i class="fa fa-linkedin"></i></a></li>
           <li><a href="https://github.com/ezshen"><i class="fa fa-github"></i></a></li>
         </ul>
 
-      <p style="font-size:15px">© {Ethan Shen} 2017 All rights reserved. </p>
+        <p style="font-size:15px">© {Ethan Shen} 2017 All rights reserved. </p>
       </div>
     </div>
   </div>
