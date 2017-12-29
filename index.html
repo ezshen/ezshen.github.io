@@ -11,9 +11,7 @@
   <!-- CSS Imports -->
   <link href="css/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="css/css/animate.css" rel="stylesheet" type="text/css">
   <link href="css/css/component.css" rel="stylesheet" type="text/css">
-  <link href="css/css/simpletextrotator.css" rel="stylesheet" type="text/css">
   <link href="css/css/theme.css" rel="stylesheet" type="text/css">
   <link href="css/css/main.css" rel="stylesheet" type="text/css">
   <script src="js/modernizr.custom.js"></script>
@@ -22,142 +20,38 @@
 
   <!-- Header. Profile picture, name, tagline, resume download, and navbar. -->
   <header id="intro">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar sticky-top" role="navigation">
       <div class="container">
+
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavigation">
-            <i class="fa fa-bars"></i>
-          </button>
-          <img src="lib/img/prof_pic.jpg" class="navbar-logo pull-left" alt="" />
-          <a href="#intro" class="navbar-brand animated flipInX">{Ethan Shen}</a>
+          <a href="#intro" class="navbar-brand">{Ethan Shen}</a>
         </div>
 
         <div class="collapse navbar-collapse" id="myNavigation">
-          <ul class="nav navbar-nav navbar-right animated flipInX">
+          <ul class="nav navbar-nav navbar-right">
             <li><a href="#about" class="scroll">About Me</a></li>
-            <li><a href="#expertise" class="scroll">Expertise</a></li>
-            <li><a href="#projects" class="scroll">Side Projects</a></li>
+            <li><a href="#expertise" class="scroll">Experience</a></li>
+            <li><a href="#projects" class="scroll">Projects</a></li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <div class="jumbotron">
-      <img src="lib/img/prof_pic.jpg" class="img-responsive" alt="" />
-      <h2 class="jumbo-name">Ethan Shen</h2>
-      <a class="resume" href="/images/myw3schoolsimage.jpg" download="w3logo">
-    </div>
   </header>
 
-  <!-- About. Short description of yourself, profile pic, experience -->
-  <div class="section" id="about">
-    <div class="container">
+<!-- About. Short description of yourself, profile pic, experience -->
+
+  <div class="container">
+    <div class="section" id="about">
       <div class="row">
-        <div class="col-sm-3" wow fadeInDown>
-          <img src="lib/img/prof_pic.jpg" class="image-bordered img-responsive" alt="" />
+        <div class="col-sm-2">
+          <img src="lib/img/prof_pic.png" class="image-bordered img-responsive" alt="" />
         </div>
 
         <div class="col-sm-9">
-          <h3 class="name">Ethan Shen</h3>
-          <p class="description">{Hi, I'm a Bio + CS sophomore at Stanford University. I love what I do, whether it's working with a team to .}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Inbetween: Using quotes to de-clutter the webpage -->
-  <div class="section quote-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
-          <blockquote class="blockquote-reverse">
-            <p><i class="fa fa-quote-left"></i> We keep moving forward, opening new doors, and doing new things, because we're curious and curiosity keeps leading us down new paths.</p>
-            <p class="quoter"> - Walt Disney</p>
-          </blockquote>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Expertise: Displays work experience -->
-  <div class="section" id="expertise">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="title">Expertise and Experience</h2>
-          <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, nihil fugiat id animi, corporis placeat perspiciatis at voluptatem quas culpa, quisquam labore atque? Aut alias, laboriosam blanditiis veritatis aliquid labore?</p>
-        </div>
-      </div>
-
-      <div class="experiences">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="experience">
-              <div class="col-sm-4">
-                <h2>Apple</h2>
-              </div>
-              <div class="col-sm-8">
-                <p>Created the macbook and worked with iOS 9 team</p>
-                <p>Wrote the swift language book</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6">
-            <div class="experience">
-              <div class="col-sm-4">
-                <h2 class="wow lightSpeedIn">Facebook</h2>
-              </div>
-              <div class="col-sm-8">
-                <p>Contributed to the react framework</p>
-                <p>Worked on the react native team</p>
-                <p>Implemented feature x that made users stay online x times longer</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="experience">
-            <div class="col-sm-4">
-              <h2>Heroku</h2>
-            </div>
-            <div class="col-sm-8">
-              <p>Raised cloud computing efficiency by 2%</p>
-              <p>Allowed for servers to power down when fewer endpoints are requested.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6">
-          <div class="experience">
-            <div class="col-sm-4">
-              <h2> Salesforce</h2>
-            </div>
-            <div class="col-sm-8">
-              <p>Worked with project team to implement IoT cloud server.</p>
-              <p>Increased user retention by 10% by implementing feature x.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Inbetween: Using quotes to de-clutter the webpage -->
-  <div class="section quote-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
-          <blockquote class="blockquote-reverse">
-            <p><i class="fa fa-quote-left"></i> Disneyland will never be completed. It will continue to grow as long as there is imagination left in the world.</p>
-            <p class="quoter"> - Walt Disney</p>
-          </blockquote>
+          <h2 class="jumbo-title">Hi, I'm <b>Ethan Shen</b>!</h2>
+          <p class="subtitle">Machine learning researcher. Developer. Stem cell biologist. <br>Stanford University Class of 2020 (Computer Science, Biology) </br>
+          <p class="description"> <i> </i> </p>
+          <a class="resume" href="files/resume.pdf">Here's my resume.</a>
         </div>
       </div>
     </div>
@@ -165,32 +59,118 @@
 
 
   <!-- Projects: Using Tympanus grid package to display side-projects -->
-  <div class="section" id="projects">
-    <div class="container">
+
+  <div class="container">
+    <div class="section" id="expertise">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title">Side Projects</h2>
-          <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laboriosam porro itaque dolores libero a mollitia voluptas facere pariatur quia in, rem atque vitae nesciunt cupiditate reiciendis neque, quisquam dolorum!</p>
+          <h2 class="title">A few teams I've worked with.</h2>
         </div>
 
         <div class="col-md-12">
           <ul id="og-grid" class="og-grid">
             <li>
-              <a href="http://appdeveloperclub.com" data-largesrc="lib/img/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
-                <img src="lib/img/thumbs/1.jpg" alt="img01"/>
+              <a href="https://www.occamzrazor.com/" data-largesrc="images/occamzrazor.jpg" data-title="OccamzRazor" data-description="
+              Palo Alto, October 2017 - Present <br> </br>
+
+              I'm currently working with team on an AI-driven neuroscience product that uses reinforcement learning to extract information from publications and various other data sources for universal analysis via bioinformatics frameworks. My responsibilities include researching methods for guiding ML agents using information derived from knowledge graphs.">
+                <img src="images/occamzrazor_logo.png" alt="img01"/>
               </a>
             </li>
             <li>
-              <a href="http://appdeveloperclub.com" data-largesrc="lib/img/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                <img src="lib/img/thumbs/2.jpg" alt="img02"/>
+              <a href="https://www.startyoshi.com/" data-largesrc="images/yoshi_sshot.png" data-title="Yoshi Inc." data-description="
+              San Francisco, May 2017 - October 2017 <br> </br>
+
+              I was backend developer at a YCombinator-backed startup. <br></br>
+
+              My responsibilities included upgrading Yoshi’s custom CRM web application with a wide range of new features to optimize operator workflow. I built a comprehensive integration testing suite that increased code coverage by 90%. I also restructured Yoshi’s internal RESTful API and database design.">
+                <img src="images/yoshi.jpg" alt="img02"/>
               </a>
             </li>
             <li>
-              <a href="http://appdeveloperclub.com" data-largesrc="lib/img/3.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
-                <img src="lib/img/thumbs/3.jpg" alt="img02"/>
+              <a href="http://www.longakerlab.com/" data-largesrc="images/sms_stem_cells.jpg" data-title="Stanford School of Medicine" data-description="
+              Palo Alto, July 2014 - October 2017 <br> </br>
+
+              Developed data analysis workflow of 3D fluorescent confocal images via isosurface and filament tracing.
+              Projects include: developing a therapeutic for rejuvenating elderly bone regeneration using a stem cell activator, generating a protein-delivery system for targeted genetic recombination in vivo, creating a novel craniofacial surgery model to investigate stem cell mechanisms.">
+                <img src="images/sms_logo.jpeg" alt="img02"/>
               </a>
             </li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Expertise: Displays work experience -->
+  <div class="container">
+    <div class="section" id="projects">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="title">Some projects and papers I've worked on.</h2>
+      </div>
+
+      <div class="project-container">
+        <div class="row">
+          <div class="col-sm-2">
+            <h2>ml+aging</h2>
+          </div>
+          <div class="col-sm-3">
+            <img src="images/ml+stemcells.png" alt="img02"/>
+          </div>
+          <div class="col-sm-7">
+              <p> We were able to train multiple supervised classifier models on a single-cell RNA-sequencing dataset to predict whether a blood stem cell is young or aged. Using in-house feature selection algorithms, we retroactively discovered small, critical subset of gene clusters that potentially drive aging, and can predict the age of a stem cell with 98.5% accuracy. We are currently exploring the biocomputational and therapeutic implications of our study. <br> </br>
+
+              Our work is done in collaboration with the Stanford CS department and Stanford Medical School, and our paper is available upon request.
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <div class="row">
+          <div class="col-sm-2">
+            <h2>3D tissue modeling</h2>
+          </div>
+          <div class="col-sm-3">
+            <img src="images/3d fat image.jpeg" alt="img02"/>
+          </div>
+          <div class="col-sm-7">
+              <p>I created a workflow for analyzing 3D fluorescent images from laser-scanning confocal microscopy. This allowed the quanfication of cellular relationships within a tissue sample (such as cell-cell distance, density, # of branch points of blood vessels), and the algorithm was adopted by the rest of the lab.<br></br>
+
+              The project was sponsored by Longaker Lab and the Stanford Stem Cell Institute. Our manuscript is under review. <br></br>
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <div class="row">
+          <div class="col-sm-2">
+            <h2>stem cell regeneration</h2>
+          </div>
+          <div class="col-sm-3">
+            <img src="images/stem cell regeneration.jpg" alt="img02"/>
+          </div>
+          <div class="col-sm-7">
+              <p>
+              Investigated the role of skeletal stem cells and therapeutic activation within multiple regenerative contexts. Research done in Longaker Lab and Helms Lab. Publications are below. <br> </br>
+
+              <a href=" ">Mechanoresponsive skeletal stem cells acquire developmental neural crest identity during distraction osteogenesis. <i>Nature</i> (under review, 2017)</a>
+
+              <br> </br>
+
+              <a href="https://www.nature.com/articles/srep36524">Axin2-expressing cells execute regeneration after skeletal injury. <i>Scientific Reports</i> (2016)</a>
+
+              <br> </br>
+
+              <a href="https://www.nature.com/articles/s41598-017-14395-9">WNT-activated bone grafts repair osteonecrotic lesions in aged animals. <i>Scientific Reports</i> (2017)</a>
+
+
+
+              </p>
+          </div>
         </div>
       </div>
     </div>
@@ -199,18 +179,15 @@
 
   <!-- Footer: Social links -->
   <div class="section" id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <ul class="brands">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="brands">
+          <li><a href="https://www.facebook.com/ethan.shen.14"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/ethan-shen/"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/ezshen"><i class="fa fa-github"></i></a></li>
+        </ul>
 
-          <p>© {Ethan Shen} 2017 All right reserved.</p>
-        </div>
+      <p style="font-size:15px">© {Ethan Shen} 2017 All rights reserved. </p>
       </div>
     </div>
   </div>
