@@ -30,6 +30,10 @@ html, body {
   padding-bottom: 20px;
 }
 
+.skills-container {
+  text-align: center;
+  font-size: 18px;
+}
 
 /************************/
 /* Provided CSS Styling */
@@ -98,11 +102,20 @@ html, body {
   font-size: 35px;
 }
 
-.subtitle {
+.jumbo-subtitle {
   display: block;
   font-size: 22px;
-  width: 75%;
-  color: #666666;
+  color: #979797;
+}
+
+.subtitle {
+  font-size: 18px;
+  text-align: center;
+  color: #979797;
+}
+
+.fa-skills {
+  font-size: 2em;
 }
 
 #footer {
