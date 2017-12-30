@@ -84,6 +84,11 @@ html, body {
   font-size: 22px;
 }
 
+.project-description {
+  color: #979797;
+  font-size: 18px;
+}
+
 .description {
   font-size: 22px;
   color: #666666;
